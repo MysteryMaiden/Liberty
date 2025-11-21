@@ -1,0 +1,26 @@
+[
+  {
+    "src": "Images/ARL.png",
+    "alt": "An image of the homepage for the Academic Resource Library"
+  },
+  {
+    "src": "Images/book.png",
+    "alt": "An image of the Book Nook page for the Academic Resource Library"
+  },
+  {
+    "src": "Images/fantasy.png",
+    "alt": "An image of the home page for the Fantasy Name Generator"
+  },
+  {
+    "src": "Images/hybrid.png",
+    "alt": "An image of a quiz-type webpage based around a fantasy book"
+  },
+  {
+    "src": "Images/login.png",
+    "alt": "An image of a log in page for a portfolio website"
+  },
+  {
+    "src": "Images/inbox.png",
+    "alt": "An image of an admin/email page for a portfolio website"
+  }
+]

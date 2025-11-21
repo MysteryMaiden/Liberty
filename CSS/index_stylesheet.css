@@ -1,0 +1,62 @@
+/********************************************************************************************************/
+/************************************************* Header ***********************************************/
+/********************************************************************************************************/
+
+header {
+    width: 100%;
+    display: block;
+}
+
+#header_img {
+    background-image: url("/Users/sageharris/Documents/Zed/Project 01/Images/dark_lightning.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    border-bottom: 2px solid white;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#header_img h1,
+#header_img h2,
+#header_img h3 {
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/********************************************************************************************************/
+/******************************************** Image Portfolio *******************************************/
+/********************************************************************************************************/
+
+#img_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#img_section_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.home_portfolio_image {
+    width: 30%; /* Normal */
+    margin: 10px;
+    border-radius: 4px;
+}
+
+@media (max-width: 1000px) {
+    .home_portfolio_image {
+        width: 70%; /* smaller */
+    }
+}
+
+@media (max-width: 600px) {
+    .home_portfolio_image {
+        width: 100%; /* smallest */
+    }
+}
