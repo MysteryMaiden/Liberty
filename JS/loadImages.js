@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("../images.json")
+  fetch("images.json")
     .then((response) => response.json())
     .then((images) => {
       const container = document.getElementById("img_section_images");
