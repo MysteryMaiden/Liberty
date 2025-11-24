@@ -1,0 +1,21 @@
+/********************************************************************************************************/
+/************************************************** Main ************************************************/
+/********************************************************************************************************/
+
+#sage_img {
+    width: 750px;
+    border-radius: 10px;
+    border: 2px solid silver;
+    box-shadow: 0 0 20px #000;
+}
+
+.header_section {
+    background-image: url("../Images/dark_lightning.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    border-bottom: 2px solid white;
+    background-attachment: fixed;
+    position: relative;
+}
