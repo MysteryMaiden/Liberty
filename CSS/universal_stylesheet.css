@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: lightsteelblue;
+    color: #e9cdeb;
     background-color: #1f1b24;
 }
 
@@ -46,7 +46,7 @@ nav .menu {
 
 nav a:link,
 nav a:visited {
-    color: lightsteelblue;
+    color: #e9cdeb;
     text-decoration: none;
 }
 

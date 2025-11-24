@@ -25,6 +25,62 @@ header {
     margin: 10px 0;
     text-align: center;
 }
+/********************************************************************************************************/
+/******************************************* Career Objectives ******************************************/
+/********************************************************************************************************/
+
+#career_section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 3rem 5rem;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#career_h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Text Container */
+
+.Career.Text {
+    flex: 1.4;
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+}
+
+.Career.Text p,
+.Career.Text ul {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.Career.Text ul {
+    margin-bottom: 1.5rem;
+}
+
+.career_image_div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#career_img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 0 35px rgba(128, 0, 255, 0.3);
+}
 
 /********************************************************************************************************/
 /******************************************** Image Portfolio *******************************************/
