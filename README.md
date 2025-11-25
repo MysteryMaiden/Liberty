@@ -13,3 +13,8 @@ I used <a> rather than <button> because it is better practice to use <a> in
             <hr>
 # Liberty
 # Liberty
+
+Section 2.
+
+I published my website to github, wich you can view here: 
+https://mysterymaiden.github.io/Liberty
