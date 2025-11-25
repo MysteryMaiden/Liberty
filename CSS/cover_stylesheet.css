@@ -3,12 +3,50 @@
 /********************************************************************************************************/
 
 #sage_img {
+    margin: 40px;
     width: 750px;
     border-radius: 10px;
     border: 2px solid silver;
     box-shadow: 0 0 20px #000;
 }
 
+/* Section Card System */
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.section-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 4px solid #b57edc; /* purple accent */
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(3px);
+}
+
+/* Headers inside cards */
+.section-card h3 {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 1.7rem;
+}
+
+/* Improve text readability */
+.section-card p,
+.section-card ol {
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+/* Header background image */
 .header_section {
     background-image: url("../Images/dark_lightning.png");
     background-repeat: no-repeat;

@@ -1,0 +1,13 @@
+.resume_hover_img {
+    width: 750px;
+    height: 200px;
+    background-image: url("../Images/resume_before_hover.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.resume_hover_img:hover {
+    background-image: url("../Images/resume_after_hover.png");
+}
