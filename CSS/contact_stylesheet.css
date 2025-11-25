@@ -1,0 +1,41 @@
+/**********************************************/
+/************** Contact Page *****************/
+/**********************************************/
+
+/* Layout of main content */
+main {
+    max-width: 700px;
+    margin: 4rem auto;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+/* Paragraph styling */
+main p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+    color: #e9cdeb; /* matches universal stylesheet text color */
+}
+
+/* Email image styling */
+main a img {
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid #b48bd8; /* soft violet tone to match your theme */
+    box-shadow: 0 0 20px rgba(180, 139, 216, 0.4);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+main a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+/* Add extra bottom spacing so footer doesn't crowd */
+main {
+    padding-bottom: 4rem;
+}
